@@ -161,4 +161,17 @@ img {
         flex-basis: 50%;
     }
 }
-
+/* Mobile */
+@media (max-width: 767px) {
+    /* stili per mobile */
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .row {
+        display: block;
+    }
+    .col {
+        width: 100%;
+    }
+}

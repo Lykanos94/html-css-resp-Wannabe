@@ -133,16 +133,32 @@ img {
 @media (min-width: 1200px) {
     /* stili per desktop */
     .container {
-      max-width: 1200px;
-      margin: 0 auto;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     .row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .col {
-      flex-basis: 33.33%;
+        flex-basis: 33.33%;
     }
-  }
-  
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* stili per tablet */
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col {
+        flex-basis: 50%;
+    }
+}
+
